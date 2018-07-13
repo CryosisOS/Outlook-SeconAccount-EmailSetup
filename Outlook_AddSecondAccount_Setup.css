@@ -1,0 +1,23 @@
+footer{
+    text-align: center;
+    font-size: 13.5px;
+    color: gray;
+}
+
+/* This is a custom tag */
+subh{
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+span{
+    display:block;
+}
+
+code {
+    margin-left: 2cm;
+    display: inline-block;
+    white-space: pre-wrap;
+    background: hsl(220, 80%, 90%); 
+}
