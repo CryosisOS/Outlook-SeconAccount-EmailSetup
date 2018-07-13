@@ -1,0 +1,26 @@
+<DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
+</head>
+<script>
+    function loadDocumentation()
+    {
+        var url = "./html/Outlook_AddSecondAccount_Setup.html";
+
+        var myForm = document.createElement("form");
+        myForm.method = "post";
+        myForm.action = url;
+
+        document.body.appendChild(myForm);
+        myForm.submit();
+        document.body.removeChild(myForm);
+    }//END FUNCTION
+</script>
+<body onload="javascript:loadDocumentation();">
+    Please wait while we load your documentation.
+</body>
+</html>
